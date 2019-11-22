@@ -1,0 +1,15 @@
+<!--pages/home/home.wxml-->
+<!-- 1.小程序的数据绑定: {{}} Mustache语法-->
+<view>hello {{name}}</view>
+<view>age:{{age}}</view>
+<!-- 2.列表展示:  wx:for -->
+<view wx:for="{{students}}">{{item.name}}-{{item.age}}</view>
+<!-- 3.事件监听改变data -->
+<view>当前计数：{{counter}}</view>
+<button size="mini" bindtap="btn1">+</button>
+<button size="mini" bindtap="btn2">-</button>
+<!-- 4.获取用户信息 -->
+<button size="mini" open-type="getUserInfo" bindgetuserinfo="handleGetUserInfo">用户授权</button>
+<button size='mini' bindtap="handleGetUserInfo">dianji</button>
+<!-- 5.展示用户信息 -->
+<open-data type='userNickName'></open-data>
