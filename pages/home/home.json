@@ -1,5 +1,8 @@
 {
-  "usingComponents": {},
+  "usingComponents": {
+    "my-cpn":"/components/my-cpn/my-cpn",
+    "my-tab-control":"/components/my-tab-control/my-tab-control"
+  },
   "navigationBarTitleText": "首页",
   "navigationBarBackgroundColor": "#ff5777",
   "enablePullDownRefresh": true

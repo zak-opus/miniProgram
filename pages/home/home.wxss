@@ -3,3 +3,6 @@
   color: red;
   font-size: 16px;
 }
+.orange{
+  background-color: orange
+}
